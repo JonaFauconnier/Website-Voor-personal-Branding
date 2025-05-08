@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+    font-family: Tahoma;
+}
+OverMijText{
+    width: 40%;
+}
+
+
+.Navigation {
+    margin: 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    background-color: forestgreen;
+}
+
+.Navigation a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    float: left;
+    font-family: Tahoma;
+}
+.Navigation a:hover{
+    background-color: darkgreen;
+}
+.CurrentPage{
+    background-color: darkgreen;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+}
+.SocialBar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+.Socials {
+    text-align: center;
+    width: 30px;
+}
+.Image {
+    width: 300px;
+}
+.HomePageText{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
